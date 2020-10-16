@@ -1,0 +1,145 @@
+*{
+	box-sizing: border-box;
+}
+/*-----------------------------------------------------------SECOND-----------------------------------------------------------------*/
+.home{
+	height:300px;
+}
+i[class="fa fa-clone"],i[class="fa fa-heart-o"],i[class="fa fa-lightbulb-o"],i[class="fa fa-comments-o"] {
+	font-size: 2em;
+	color: #e68e0b;
+	padding: 20px;
+}
+.iconborder{
+	border: 1px solid #ddd;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    margin: 20px auto;
+}
+.iconborder:hover{
+	transform:rotate(360000000deg);
+	transition: 1s;
+	border-color: #e68e0b;
+	font-size: 100em;
+}
+h4{
+	text-align: center;
+}
+h4:hover{
+	color: #e68e0b;
+}
+/*--------------------------------------------------------THIRD-----------------------------------------------------------------------*/
+section div div div img{
+	margin-left: 150px;
+}
+.history{
+	margin-top: 100px;
+}
+.history a {
+	background-color: #e68e0b !important;
+	border-color: #e68e0b !important;
+}
+h2 span{
+	font-size: 1.5em;
+	color: #e68e0b;
+}
+/*-------------------------------------------------------4---------------------------------------------------------------------------*/
+.serviceimg img{
+	position: relative;
+	left: 700px;
+	bottom: 729px;
+
+}
+.ourservices{
+	background-color: #1a1816;
+	height: 767px;
+}
+article h4{
+	color: #e68e0b;
+	text-align: right;
+}
+.ourservices h2{
+	text-align: center;
+}
+article p{
+	color: #e3e0dc;
+	text-align: right;
+}
+.service{
+	color: #ffffff;
+}
+i[class="fas fa-tv"], i[class="fab fa-facebook-messenger"], i[class="fas fa-camera"]{
+	color: #e68e0b;
+	border-radius: 50%;
+	background: #f4f5f9;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    position: relative;
+    z-index: 9;
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    font-size: 1.875rem;
+}
+.col-md-12 {
+	margin:60px;
+}
+/*--------------------------------------------------------------PENKI---------------------------------------------------------------------*/
+.portfolio{
+	padding-top: 85px;
+	padding-bottom: 105px;
+}
+.portfoliohead{
+	text-align: center;
+	margin-bottom: 90px;
+}
+.portfolio_text{
+	margin-top: 30px;
+}
+.centertext{
+	text-align: center;
+}
+button.btn-md {
+    text-align: center;
+    color: #444;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 0.8125rem;
+    border-radius: 0px;
+    margin-top: 0px;
+    background-color: transparent;
+    border: 0px solid #e74c3c;
+}
+button.btn-md:hover{
+	color: #e68e0b;
+}
+.portfolioimages{
+	background-color: red;
+	margin-top: 60px;
+	margin-top: 60px;
+}
+.portfolioimages .row .col-sm-3 img:hover{
+	background-color: #e68e0b;
+	  opacity: 0.3;
+}
+.portfolioimages .row .col-sm-3 img{
+	margin:0;
+	max-width: 111%;
+}
+/*-----------------------------------------------------------------------6----------------------------------------------------------*/
+.studyhead, .studytext{
+	text-align: center;
+}
+/*-----------------------------------------------------------------------7----------------------------------------------------------*/
+.counter{
+    background: url(../img/counter.jpg) no-repeat top center;
+    background-size: cover;
+}
+.counteritem{
+	color: white;
+	margin:15px;
+}
+.counteritem i{
+	font-size:2em;
+}
