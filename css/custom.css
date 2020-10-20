@@ -1,7 +1,80 @@
 *{
 	box-sizing: border-box;
 }
-/*-----------------------------------------------------------SECOND-----------------------------------------------------------------*/
+html, body{
+	width: 100%;
+}
+ul{
+	list-style: none;
+}
+img{
+	max-width: 100%;
+}
+.separator {
+    width: 10px;
+    height: 10px;
+    margin: 20px auto;
+    background: #e74c3c;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+}
+.separator:before {
+    position: absolute;
+    right: 5%;
+    bottom: 4px;
+    height: 1px;
+    width: 80px;
+    background: #999999;
+    content: "";
+    display: inline-block;
+    margin-right: 20px;
+}
+.separator:after {
+    position: absolute;
+    left: 5%;
+    bottom: 4px;
+    height: 1px;
+    width: 80px;
+    background: #999999;
+    content: "";
+    display: inline-block;
+    margin-left: 20px;
+}
+/*-----------------------------------------------------------FIRST------------------------------------------------------------------*/
+.fx{
+	position: fixed;
+}
+.mainmenu{
+	margin-top: 0px;
+	background-color: transparent;
+}
+.mainmenu .nav {
+    background-color: transparent;
+    border-color: transparent;
+    transition: all .6s;
+    margin: 15px auto;
+}
+.navbar-header{
+	margin-right: -15px;
+    margin-left: -15px;
+}
+.navbrand{
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #777;
+}
+.navbar-nav{
+    margin: 7.5px -15px;
+}
+.home {
+    background: url(../img/homebg.jpg) no-repeat center center;
+    background-size: cover;
+}
+-----------------------------------------------------------SECOND-----------------------------------------------------------------*/
 .home{
 	height:300px;
 }
@@ -18,10 +91,9 @@ i[class="fa fa-clone"],i[class="fa fa-heart-o"],i[class="fa fa-lightbulb-o"],i[c
     margin: 20px auto;
 }
 .iconborder:hover{
-	transform:rotate(360000000deg);
+	transform:rotate(45deg);
 	transition: 1s;
 	border-color: #e68e0b;
-	font-size: 100em;
 }
 h4{
 	text-align: center;
@@ -136,10 +208,211 @@ button.btn-md:hover{
     background: url(../img/counter.jpg) no-repeat top center;
     background-size: cover;
 }
-.counteritem{
-	color: white;
-	margin:15px;
+.countermain{
+	padding: 80px 20px;
 }
-.counteritem i{
-	font-size:2em;
+.counter1 i {
+    color: #fff;
+    font-size: 2em;
+    display: inline-block;
+    border: 1px solid #fff;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    text-align: center;
+}
+.counter1 h2, h4{
+	color: #fff;
+}
+/*-------------------------------------------------------------------8--------------------------------------------------------------*/
+.pricing_area{
+	padding-top: 85px;
+}
+.pricing_head{
+	margin-bottom: 90px;
+	text-align: center;
+}
+.pricing_text{
+	margin-top: 30px;
+}
+.single_pricing{
+	text-align: center;
+    margin-top: 20px;
+}
+.pricing_start{
+	padding: 30px 0px;
+    background: #999999;
+    position: relative;
+    height: 200px;
+}
+.pricing_start h3{
+	    color: #fff;
+}
+.pricing_price{
+	background: #fff;
+    position: absolute;
+    bottom: -30%;
+    left: 30%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 30px 0px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px rgba(244,245,249,0.3);
+}
+.p_r, .m_t{
+	text-align: center;
+}
+.p_r{
+	font-size: 2em;
+}
+.pricing_body{
+	background: #f4f5f9;
+    padding: 80px 0px 30px 0px;
+}
+.pricing_body ul li{
+	line-height: 45px;
+    height: 45px;
+}
+.single_pricing a {
+	background: #999999;
+    padding: 1em 2em;
+    border: 1px solid transparent;
+    display: inline-block;
+    min-width: 150px;
+    text-align: center;
+    color: #fff;
+}
+.pricing_start_orange{
+	padding: 30px 0px;
+	position: relative;
+    height: 200px;
+	background-color: #e68e0b;
+}
+.orange a{
+	background: #e68e0b;
+}
+.p_r_orange{
+	text-align: center;
+	font-size: 2em;
+	color: #e68e0b;
+}
+/*-----------------------------------------------------------------9----------------------------------------------------------------------*/
+.main_team_area{
+	background: url(../img/teambg.jpg) no-repeat scroll top center;
+	background-size: cover;
+	position: relative;
+	height: 650px;
+}
+.team_head{
+	color: #fff;
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom:90px;
+}
+.team_head p{
+	margin-top: 30px;
+}
+.team_text{
+	padding: 10px 20px;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.6s;
+    text-align: center;
+    display: block;
+    height: 80px;
+}
+.team_img img{
+	width: 60px;
+    height: 60px;
+    margin: 20px auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 3px rgba(231, 76, 60, 0.65);
+}
+.main_team ul li:nth-child(1){
+	width: 15%;
+    display: inline-block;
+    float: left;
+    margin-left: 3%;
+    position: absolute;
+    left: 1%;
+    top: 96%;
+}
+.main_team ul li:nth-child(2){
+	width: 15%;
+    display: inline-block;
+    float: left;
+    margin-left: 3%;
+    position: absolute;
+    left: 19%;
+    top: 85%;
+}
+.main_team ul li:nth-child(3){
+	width: 15%;
+    display: inline-block;
+    float: left;
+    margin-left: 3%;
+    position: absolute;
+    left: 37%;
+    top: 87%;
+}
+.main_team ul li:nth-child(4){
+	width: 15%;
+    display: inline-block;
+    float: left;
+    margin-left: 3%;
+    position: absolute;
+    left: 55%;
+    top: 97%;
+}
+.main_team ul li:nth-child(5){
+	width: 15%;
+    display: inline-block;
+    float: left;
+    margin-left: 3%;
+    position: absolute;
+    left: 73%;
+    top: 94%;
+}
+.team_text{
+	padding: 10px 20px;
+    width: 100%;
+    opacity: 0;
+    transition: all 2s;
+    text-align: center;
+    display: block;
+    height: 80px;
+}
+.team_text:hover{
+	opacity: 1;
+}
+.team_text h4{
+    display: inline-block;
+    color: #e74c3c;
+}
+.team_text p{
+	color: #fff;
+}
+.main_alogo{
+	text-align: center;
+	padding-top: 85px;
+	padding-bottom: 105px;
+}
+.head_alogo{
+	text-align: center;
+	margin-bottom: 90px;
+}
+.head_alogo p{
+	margin-top: 30px;
+}
+.main_alogo a{
+	    height: 100px;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    line-height: 100px;
+    background: #fff;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0, 0.25);
 }
